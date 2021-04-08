@@ -71,7 +71,7 @@ jobs:
             pio run --environment DIY_2400_TX_ESP32_SX1280_LORA1280F27_via_UART
             pio run --environment DIY_2400_RX_ESP8285_SX1280_via_UART
             pio run --environment DIY_2400_RX_ESP8285_SX1280_via_BetaflightPassthrough
-            pio run --environment DIY_2400_RX_STM32_CCG_Nano_v0_5
+            pio run --environment DIY_2400_RX_STM32_CCG_Nano_v0_5_via_STLINK
             pio run --environment DIY_2400_RX_STM32_CCG_Nano_v0_5_via_BetaflightPassthrough
             mv .pio/build ~/artifcats/ISM_2400
 
